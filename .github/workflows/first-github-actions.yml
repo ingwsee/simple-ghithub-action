@@ -1,0 +1,11 @@
+name: Run shell Commands
+on: [push]
+
+jobs:
+    run-shell-command:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Echo a String
+                run: echo "Hello Security Gurus!! This is a test for our GirHubActions Workflow file"
+
+            
